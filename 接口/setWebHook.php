@@ -7,7 +7,7 @@ if ($key !== $_ENV['key']) {
     echo json_encode(['code' => 422, 'message' => '设置秘钥错误']);
 } else {
     //开始设置回调url
-    $url = $_REQUEST['url'] ?? $_ENV['url'];
+    $url = $_REQUEST['url'] ?? $_ENV['https://111-tg-message-26px57r2n-g915568310.vercel.app'];
     require_once 'Bot.php';
     $data = ['url' => $url];
     $bot = new Bot();
