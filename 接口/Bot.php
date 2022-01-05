@@ -24,7 +24,7 @@ class Bot
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => sprintf('https://api.telegram.org/bot%s/%s', $this->token, $method),
+            CURLOPT_URL => sprintf('https://api.telegram.org/bot5073063681:AAFHhobFdR7oU5Npa5HlzKVAsH0Ut8Eph3o', $this->token, $method),
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
